@@ -89,5 +89,9 @@
 }
 
 .navigation_dot.active {
+  width: 15px;
+  height: 15px;
   background-color: #e50914;
+  box-shadow: 0 0 15px 5px rgba(229, 9, 20, 0.8); /* Red glow effect */
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transition */
 }
